@@ -43,7 +43,7 @@ ljg-xray-paper/
 4. **生成逻辑结构图**：使用纯 ASCII 字符绘制论文核心逻辑流程
 5. **检查系统环境**：检查系统中是否安装 emacs，决定输出格式
 6. **生成报告**：根据环境检查结果，按相应模板生成 org-mode 或 markdown 格式文件
-7. **保存并打开**：保存到 `~/Documents/notes/` 目录并打开文件
+7. **保存并打开**：保存到 `$NOTES_DIR` 目录并打开文件（路径见 SKILL.md 路径配置表）
 
 ## 输出文件规范
 
@@ -54,7 +54,7 @@ ljg-xray-paper/
     - 如果系统未安装 emacs：使用 `.md` 扩展名（markdown 格式）
 - 示例（org 格式）：`20260207T171500--xray-dflash-block-diffusion__read.org`
 - 示例（markdown 格式）：`20260207T171500--xray-dflash-block-diffusion__read.md`
-- 保存路径：`~/Documents/notes/`
+- 保存路径：`$NOTES_DIR`
 
 时间戳通过 `date +%Y%m%dT%H%M%S` 命令生成。
 
