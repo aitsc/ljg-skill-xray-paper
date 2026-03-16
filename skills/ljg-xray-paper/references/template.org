@@ -2,7 +2,8 @@
 #+date:       [{YYYY-MM-DD Day HH:MM}]
 #+filetags:   :read:xray:paper:
 #+identifier: {YYYYMMDDTHHMMSS}
-#+source:     {论文链接}
+#+source:     {论文链接, URL 输入时}
+#+path:       {PDF 相对路径, PDF 匹配 $PAPERS_DIR 时替代 #+source}
 #+authors:    {作者}
 
 * 论文说了什么
