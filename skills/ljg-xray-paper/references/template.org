@@ -1,4 +1,4 @@
-#+title:      paper-{简短标题}
+#+title:      {简短标题}
 #+date:       [{YYYY-MM-DD Day HH:MM}]
 #+filetags:   :read:xray:paper:
 #+identifier: {YYYYMMDDTHHMMSS}
