@@ -1,7 +1,7 @@
 ---
 name: ljg-xray-paper
 description: "Paper X-ray. Extracts what the paper says (problem-perspective-result) and what it means for lijigang (cognitive delta cards in ASCII art). Use when user shares an arxiv link, paper URL, PDF, or asks to analyze a research paper. Usually called via ljg-xray router. Do NOT use for blog posts or non-academic articles (use ljg-xray-article instead)."
-user_invocable: true
+user-invocable: true
 ---
 
 # LJG-Xray-Paper: 论文解读
@@ -27,6 +27,14 @@ user_invocable: true
 ## 约束
 
 ### L0: 通用约束
+
+#### 输出语言
+
+默认输出为简体中文。
+
+- 报告正文一律使用简体中文，包括：问题、视角、结果、一句话总结、认知卡片说明、金句、开放问题。
+- 论文原始标题、作者名、专有名词、数据集名、模型名、引用的英文术语，可保留原文；首次出现时优先用中文解释。
+- 除非用户明确要求英文或双语，否则不要输出英文版报告。
 
 #### Org-mode 语法
 
