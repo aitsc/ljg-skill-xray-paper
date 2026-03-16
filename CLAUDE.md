@@ -52,8 +52,8 @@ ljg-xray-paper/
   - 扩展名根据系统环境自动选择：
     - 如果系统安装了 emacs：使用 `.org` 扩展名（org-mode 格式）
     - 如果系统未安装 emacs：使用 `.md` 扩展名（markdown 格式）
-- 示例（org 格式）：`20260207T171500--xray-dflash-block-diffusion__read.org`
-- 示例（markdown 格式）：`20260207T171500--xray-dflash-block-diffusion__read.md`
+- 示例（org 格式）：`20260207T171500--dflash-block-diffusion__read.org`
+- 示例（markdown 格式）：`20260207T171500--dflash-block-diffusion__read.md`
 - 保存路径：`$NOTES_DIR`
 
 时间戳通过 `date +%Y%m%dT%H%M%S` 命令生成。
